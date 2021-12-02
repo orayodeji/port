@@ -1,0 +1,37 @@
+@import "./plugins/locomotive.css";
+@import "./base/helpers.css";
+@import "./ui/style.css";
+
+@font-face {
+    font-family: "ElgocAlt";
+    src: url("../fonts/ElgocAlt/ElgocAlt-Medium.woff2") format("woff2"),
+      url("../fonts/ElgocAlt/ElgocAlt-Medium.ttf") format("ttf");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+  
+@font-face {
+    font-family: "Beatrice Medium";
+    src: url("../fonts/Beatrice/Beatrice-Medium.ttf") format("ttf");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Beatrice Regular";
+    src: url("../fonts/Beatrice/Beatrice-Regular.ttf") format("ttf");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Beatrice Light";
+    src: url("../fonts/Beatrice/Beatrice-Light.ttf") format("ttf");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

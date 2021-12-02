@@ -1,0 +1,96 @@
+@charset "UTF-8";
+:root,
+:root.dark-mode {
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+
+    --button-border-radius: 40px;
+	--button-bg: transparent;
+	--button-stroke: #000;
+	--button-stroke-width: 1px;
+	--button-text: #000;
+	--button-bg-hover: #d8d4cf;
+	--button-stroke-hover: #000;
+	--button-stroke-width-hover: 1px;
+	--button-text-hover: #fff;
+    --cursor-stroke: #fff;
+    --cursor-fill: #fff;
+    --cursor-stroke-width: 1px;
+	--button-filler: #000;
+	--color-bg: #ccc;
+
+
+    --background-dark: #0E0E0E;
+    --text-light: #FFFFFF;
+
+    --background-light-alt: #FFFFFF;
+    --text-dark-alt: #0E0E0E;
+
+    --background-color: var(--background-dark);
+    --text-color: var(--text-light);
+
+    --background-color-alt: var(--background-light-alt);
+    --text-color-alt: var(--text-dark-alt);
+}
+
+
+:root.light-mode {
+    --backround-light: #FFFFFF;
+    --text-dark: #0E0E0E;
+
+    --background-dark-alt: #0E0E0E;
+    --text-light-alt: #FFFFFF;
+
+    --background-color: var(--background-light);
+    --text-color: var(--text-dark);
+    
+    --background-color-alt: var(--background-dark-alt);
+    --text-color-alt: var(--text-light-alt);
+}
+
+:root.__88D498-mode {
+    --background-dark: #88D498;
+    --text-light: #FFFFFF;
+
+    --background-light-alt: #FFFFFF;
+    --text-dark-alt: #88D498;
+
+    --background-color: var(--background-dark);
+    --text-color: var(--text-light);
+
+    --background-color-alt: var(--background-light-alt);
+    --text-color-alt: var(--text-dark-alt);
+}
+
+:root.__CCD6F6-mode {
+    --background-dark: #CCD6F6;
+    --text-light: #FFFFFF;
+
+    --background-light-alt: #FFFFFF;
+    --text-dark-alt: #CCD6F6;
+
+    --background-color: var(--background-dark);
+    --text-color: var(--text-light);
+
+    --background-color-alt: var(--background-light-alt);
+    --text-color-alt: var(--text-dark-alt);   
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background-dark: #0E0E0E;
+        --text-light: #FFFFFF;
+    
+        --background-light-alt: #FFFFFF;
+        --text-dark-alt: #0E0E0E;
+    
+        --background-color: var(--background-dark);
+        --text-color: var(--text-light);
+    
+        --background-color-alt: var(--background-light-alt);
+        --text-color-alt: var(--text-dark-alt);
+    }
+}
